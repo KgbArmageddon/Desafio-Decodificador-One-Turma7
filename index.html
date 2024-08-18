@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Metal&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Decodificador de Textos</title> 
+</head>
+<body>
+  <header>
+    <img class="LogoAlura" src="/Imagens/LogoAlura.png" alt="Logo da Alura">
+  </header>
+
+<main>
+    <section>
+        <textarea class="text-area" cols="45" rows="7" placeholder="Digite seu texto"></textarea>
+        <div class="informacao">
+            <h6>*apenas letras minusculas e sem acento.</h6>
+        </div>  
+       
+        <div class="botoes">
+            <button class="btn-encriptar" onclick="btnEncriptar()">Criptografar</button>
+            <button class="btn-desencriptar" onclick="btnDesencriptar()">Descriptografar</button>
+            <button class="btn-limpar" onclick="limparCampos()">Limpar Campos</button>
+        </div>    
+      </section>
+
+      <section class="mensagem-container mensagem-vazia">
+        <div class="mensagem-default">
+            <img src="Imagens/erro.png" alt="Nenhuma mensagem encontrada">
+            <div class="mensagem-texto">
+                <strong>Mensagem não encontrada</strong><br>
+                Digite um texto que você deseja criptografar ou descriptografar.
+            </div>
+        </div>
+        <textarea class="mensagem" cols="20" rows="10" readonly></textarea>
+        <button class="btn-copiar">Copiar</button>
+      </section>
+</main>
+ <script src="script.js"></script>
+</body>
+
+<footer>
+  <strong><p>Desenvolvido por Karimy Borda</p></strong>
+  <strong><p>Contato: karimydesouzaborda@gmail.com</p></strong>
+  <strong><p>© 2024 Decodificador de Textos</p></strong>
+  <strong><p>Desafio 1 Challenge ONE-Alura </p></strong>
+
+</footer>
+</body>
+</html>
+

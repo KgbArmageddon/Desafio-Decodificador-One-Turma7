@@ -1,0 +1,128 @@
+body {
+    background-image: url('/imagens/criptografia.png');
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0; 
+    padding: 0; 
+    margin-top: -5px;
+    font-family: "Metal", serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+.LogoAlura {
+    margin-left: 10px;
+    padding-top: 10px;
+    width: 3%;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    margin: 0px auto; 
+    max-width: 1200px; 
+}
+
+
+.text-area, .mensagem {
+    background-color: #fff; 
+    border: none;
+    border-radius: 5px;
+    color: #190436;
+    margin: 10px 0;
+    padding: 10px;
+    box-sizing: border-box; 
+}
+
+.text-area {
+    width: 100%; 
+    height: 150px; 
+    text-transform: lowercase;
+}
+
+.mensagem {
+    width: 100%; 
+    height: 150px; 
+    position: relative;
+    z-index: 1; 
+}
+
+.mensagem-default {
+    text-align: center;
+    margin-top: 20px;
+    display: none;
+    font-size: 25px;
+    line-height: 1.2;
+}
+
+.mensagem-default img {
+    width: 100px; 
+    margin-bottom: 5px;
+}
+
+.botoes {
+    display: flex;
+    margin-top: 10px;
+}
+
+.btn-desencriptar, .btn-encriptar, .btn-copiar, .btn-limpar {
+    border: 2px solid #340671;
+    border-radius: 24px;
+    color: #190436;
+    cursor: pointer;
+    height: 67px;
+    margin: 10px;
+    width: 328px;
+    background: #711d81; 
+}
+
+.btn-copiar {
+    background: #711d81; 
+    position: relative; 
+}
+
+.informacao h6 {
+    color: rgb(99, 7, 7);
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    margin-left: 15px;
+    
+}
+
+
+.mensagem-container.mensagem-vazia .mensagem-default {
+    display: block;
+}
+
+.mensagem-container.mensagem-vazia .mensagem {
+    display: none;
+}
+
+footer {
+    
+    color: black; 
+    text-align: center; 
+    padding: 0px 0; 
+    position: fixed; 
+    width: 100%; 
+    bottom: -30px;
+    right: 0; 
+    font-size: 13px; 
+    display: flex; 
+    justify-content: flex-end; 
+   
+}
+
+footer > * {
+    flex: 1; 
+    margin: 0; 
+    text-overflow: ellipsis;
+    white-space: nowrap; 
+    overflow: hidden; 
+}
+
+
+
