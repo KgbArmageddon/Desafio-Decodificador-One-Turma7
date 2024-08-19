@@ -41,6 +41,9 @@ As chaves utilizadas para criptografia são as seguintes:
 3. O resultado será exibido automaticamente.
 4. Use o botão "Copiar" para copiar o resultado para a área de transferência.
 
+## Link do Decodificador de Textos
+[https://kgbarmageddon.github.io/Desafio-Decodificador-One-Turma7/]
+
 ## Contato
 
 Desenvolvido por **Karimy Borda**  
