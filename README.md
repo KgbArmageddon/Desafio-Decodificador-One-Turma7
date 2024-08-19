@@ -1,6 +1,6 @@
 # Decodificador de Textos
 
-Bem-vindo ao desafio de criar um Decodificador de Textos!
+Bem-vindo ao desafio de criar um Challenge Decodificador de Textos!
 
 ## Descrição do Projeto
 
