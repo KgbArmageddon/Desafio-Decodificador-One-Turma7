@@ -3,6 +3,9 @@
 
 Bem-vindo ao desafio de criar um Challenge Decodificador de Textos!
 
+![Decodificador de textos](https://github.com/user-attachments/assets/41d12581-2c0d-4336-b129-550c7c04f15c)
+
+
 ## Descrição do Projeto
 
 Este projeto foi desenvolvido como parte do primeiro desafio do programa de formação. O objetivo é criar uma aplicação web que criptografa e descriptografa textos usando uma chave de substituição de caracteres.
