@@ -1,4 +1,4 @@
-# Decodificador de Textos
+# Desafio Challenge Decodificador de Textos - Alura
 
 Bem-vindo ao desafio de criar um Challenge Decodificador de Textos!
 
