@@ -1,9 +1,10 @@
 # Decodificador de Textos
-[https://kgbarmageddon.github.io/Desafio-Decodificador-One-Turma7/]
 
 Bem-vindo ao desafio de criar um Challenge Decodificador de Textos!
 
 ![Decodificador de textos](https://github.com/user-attachments/assets/41d12581-2c0d-4336-b129-550c7c04f15c)
+
+[https://kgbarmageddon.github.io/Desafio-Decodificador-One-Turma7/]
 
 
 ## Descrição do Projeto
